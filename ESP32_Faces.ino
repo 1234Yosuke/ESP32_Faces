@@ -10,12 +10,12 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses
 ****************************************************/
 
-#include <M5StickC.h>
+#include <M5StickCPlus.h>
 
 #include "Face.h"
 
-#define WIDTH  80
-#define HEIGHT 168
+#define WIDTH  135
+#define HEIGHT 240
 #define EYE 40
 
 TFT_eSprite Buffer = TFT_eSprite(&M5.Lcd);

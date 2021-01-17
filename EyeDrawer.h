@@ -19,7 +19,7 @@ You should have received a copy of the GNU Affero General Public License along w
 #include "WProgram.h"
 #endif
 
-#include <M5StickC.h>
+#include <M5StickCPlus.h>
 #include "EyeConfig.h"
 
 
