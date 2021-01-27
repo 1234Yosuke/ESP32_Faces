@@ -8,3 +8,5 @@ M5StickCPlus.hを読み込むため、M5StickCPlusライブラリが必要です
 これはESP32_Facesからフォークしています。元のESP32_FacesはM5StickCで動作するようにできているため、M5StickCでやろうと言う方は、元のESP32_Facesをおすすめします。
  
 元のESP32_Facesは[こちら](https://github.com/luisllamasbinaburo/ESP32_Faces)
+
+注意点として、M5StickCとM5StickCPlusではIMUの呼び出し方が違うので、M5StickCPlusではM5.IMUに変更しています。
