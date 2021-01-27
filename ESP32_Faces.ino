@@ -39,14 +39,14 @@ void setup(void) {
 	face.Behavior.Clear();
 	face.Behavior.SetEmotion(eEmotions::Normal, 1.0);
 
-	M5.MPU6886.Init();
+	M5.IMU.Init();
 }
 
 void loop() {
 	float accX = 0;
 	float accY = 0;
 	float accZ = 0;
-	M5.MPU6886.getAccelData(&accX, &accY, &accZ);
+	M5.IMU.getAccelData(&accX, &accY, &accZ);
 
 	if (accZ > 0.8 || accZ < -0.8)
 	{
